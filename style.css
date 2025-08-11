@@ -1,0 +1,80 @@
+body{
+  background-image: url(img/rowan-heuvel-U6t80TWJ1DM-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+
+  }
+
+
+  .form{
+    width: 300px;
+    height: 300px;
+    padding: 25px 15px;
+    border-radius: 10px;
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.7); 
+ 
+
+    
+  }
+
+  .login h1{
+   color: rgb(5, 161, 44);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 25px;
+   margin-bottom: 8px;
+   
+   
+  }
+  .form label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 10px;
+  text-align: justify;
+  margin-left: 30px;
+
+  }
+
+
+  .form button{
+  display: block;
+  background-color: #20992a;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 6px;
+  cursor: pointer;
+ 
+  }
+
+  .form input{
+  border-radius: 8px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-left: -8px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border-color: #20992a;
+  }
+
+  .toggle-senha {
+    position: absolute;
+  margin-left: -27px;
+  margin-top: -5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000000; 
+}
