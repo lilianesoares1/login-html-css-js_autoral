@@ -6,5 +6,6 @@ toggleSenha.addEventListener("click", () => {
   campoSenha.type = tipo;
 
   // Troca o ícone quando mostrar/esconder
-  toggleSenha.textContent = tipo === "password" ? "👁" : "👁";
+  toggleSenha.textContent = tipo === "password" ? "👁" : "-";
 });
+
