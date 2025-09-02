@@ -1,6 +1,6 @@
 body{
   background-image: url(img/rowan-heuvel-U6t80TWJ1DM-unsplash.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 500px;
   display: flex;
@@ -79,4 +79,5 @@ body{
   color: #000000; 
 
 }
+
 
